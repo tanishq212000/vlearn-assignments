@@ -9,6 +9,9 @@ if __name__ == '__main__':
 
 #additional code to test the app
 import requests
+
 def test_app():
-    response = requests.get('http://
+    response = requests.get('http://127.0.0.1:5000/')
+    assert response.status_code == 200
+    assert 'Hello, World!' in response.text
 
