@@ -7,7 +7,8 @@ def hello_world():
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=5000)
 
-#addiquickly add a new route to the app
-@app.route('/greet/<name>')
-def greet(name):
-    return f'Hello, {name}!'
+#additional code to test the app
+import requests
+def test_app():
+    response = requests.get('http://
+
