@@ -15,3 +15,8 @@ def test_app():
     assert response.status_code == 200
     assert 'Hello, World!' in response.text
 
+# Run the test
+if __name__ == '__main__':
+    test_app()
+    print("Test passed!")
+
