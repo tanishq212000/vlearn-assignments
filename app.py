@@ -20,3 +20,7 @@ if __name__ == '__main__':
     test_app()
     print("Test passed!")
 
+#incorrect code to test the app
+def test_app_incorrect():
+    response = requests.get('http://
+
